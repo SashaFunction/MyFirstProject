@@ -1,0 +1,154 @@
+body {
+    background: #E5E5E5;
+}
+
+.head {
+    margin: 0px 200px;
+}
+/*Блок с кнопкой эмблемой и номером*/
+.headOne {
+    display: flex;
+    padding: 50px 0px;
+}
+
+.NumberLupa {
+    display: flex;
+}
+/*Кнопка Предложить новость*/
+.button {
+    padding-right: 420px;
+}
+
+.btnOffer {
+    display:inline-block;
+    width: 220px;
+    border: 2px solid #9F0023;
+    border-radius: 56px;
+    padding: 20px 20px;
+    color: #9F0023;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnOffer:hover {
+    background: rgba(194, 2, 44, 0.05);
+    border: 2px solid #C2022C;
+}
+
+
+/*Эмблема Златоустовского Телевидения*/
+.ZlatTel {
+    padding-right: 800px;
+}
+
+/*Номер телефона*/
+.Number {
+    padding-right: 40px;
+    width: 170px;
+    /* 20 bold */
+
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 135%;
+    /* identical to box height, or 27px */
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+/*Блок с кнопками Новости и ссылками на соц.сети*/
+.headTwo {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.Navbtn {
+    display: block;
+    padding: 1em;
+    margin-right: 50px;
+    width: 100%;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 135%;
+    text-decoration: none;
+    /* identical to box height, or 27px */
+    white-space: nowrap;
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+.Navbtn:focus {
+    color: #9F0023;
+}
+
+.Navbtn:hover {
+    color: #9F0023;
+}
+
+li {
+    position: relative;
+}
+
+li:hover > .submenu {
+    display: flex;
+
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+}
+
+.Subscribes {
+    display: flex;
+    padding-left: 400px;
+    align-items: center;
+    
+}
+
+
+.SubInf {
+    padding-right: 50px;
+    width: 230px;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 135%;
+    /* identical to box height, or 27px */
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+.SubSVG {
+    height: 15px;
+    margin-right: 15px;
+}
+
+/*Линия между блоками*/
+.line {
+    width: 2000px;
+    height: 2px;
+    background: #373334;
+  }

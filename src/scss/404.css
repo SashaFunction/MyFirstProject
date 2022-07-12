@@ -1,0 +1,71 @@
+body {
+    background: #E5E5E5;
+}
+
+.err404 {
+    display: flex;
+    justify-content: center;
+}
+
+.image404 {
+    padding-right: 50px;
+}
+
+.Head404 {
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+.Inf404 {
+    /* 14 text */
+    padding-bottom: 50px;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    /* or 19px */
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+.Button404 {
+    display:inline-block;
+    border: 4px solid #000000;
+    border-radius: 56px;
+    padding: 16px 50px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+
+}
+
+.mainpage {
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    /* Черный2 */
+
+    color: #373334;
+    text-decoration: none;
+}

@@ -1,0 +1,397 @@
+body {
+  position: relative;
+  width: 1903px;
+  height: 4031px;
+  background-color: #E5E5E5;
+}
+
+/*Блок с рекламой и кнопкой Прайс*/
+.AdsInf {
+  position: relative;
+}
+
+/*Расположение Ads и Textline */
+.AdsInfLoc {
+  position: relative;
+  padding: 70px 0;
+}
+
+/*Реклама*/
+.Ads {
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90%;
+  margin: 10px 0;
+}
+
+
+/*Главная Новости Реклама*/
+.Textline {
+  margin: 16px 0;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+
+  color: #959595;
+}
+
+/*Расположение AdsBlock*/
+.AdsBlockLoc {
+  display: flex;
+
+}
+
+/*Блок с описанием МП Злат*/
+.AdsBlock {
+    padding: 70px 0;
+    margin: 28px 0;
+    display: block;
+  
+}
+
+/*МП «Злат-ТВ» является официальным партнером телеканалов "360°" и «ТНТ4»*/
+.AdsBlock .AdsText {
+  margin: 70px 0;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: black;
+}
+
+/*Кнопка Прайс*/
+.button1 {
+  margin: 110px 0;
+  padding: 70px 350px;
+}
+
+
+  /*Кнопки*/
+.btnPrice{
+  display:inline-block;
+  border: 4px solid #373334;
+  border-radius: 56px;
+  padding: 16px 50px;
+  color: #373334;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/*Блок с преимуществом и комплексом услуг*/
+.AdsPrem {
+  position: relative;
+}
+
+/*Преимущества рек.компании и -Наибольшая запоминаемость*/
+.PPInfWarp {
+  display: flex;
+}
+
+/*Преимущества рекламной кампании на нашем канале*/
+.Prem {
+  padding: 50px 0px;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 125%;
+  color: #373334;
+}
+
+/*— Наибольшая запоминаемость и узнаваемость продукта / услуги
+— Максимальное число контактов с целевой аудиторией*/
+.PremInf {
+  display: flex;
+  padding: 70px 210px;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #373334;
+}
+
+/*обёртка для 4 блоков и информацией*/
+.AdsRects {
+  display: flex;
+  margin: 0px;
+}
+
+/*4 блока*/
+.Rect {
+  display: flex;
+  box-sizing: border-box;
+  border: 2px solid #373334;
+  margin: 20px 20px;
+}
+
+/*Информация внутри блоков*/
+.RectText {
+  margin: 30px 20px;
+  display: flex;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+
+}
+
+/*Картинки внутри блоков*/
+.SVGRect {
+  padding: 30px 20px;
+}
+
+/*Злат ТВ оказывается комплекс услуг и -Определение целей и задач...*/
+.AdsComplexElements {
+  display: flex;
+}
+
+/*Злат-ТВ оказывает весь комплекс услуг по размещению рекламы на телевидении:*/
+.HeadComplex {
+  padding: 120px 0px;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 125%;
+  color: #373334;
+}
+
+/*—  Определение целей и задач рекламной кампании
+— Выбор периодичности и времени вещание, согласование*/
+.HeadComplexInf {
+  padding: 165px 160px;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #373334;
+}
+
+/*Обёртка для Сроки выполненных работ, по продолжительности, по форме*/
+.SrokProdForm {
+  display: flex;
+  padding-top: 120px;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 135%;
+  color: #373334;
+
+}
+
+/*Обёртка для — Изготовление: 2 рабочий дня...  
+— Развернутые ролики (30 сек. и больше)... 
+— Рекламное сообщение...*/
+.SrokProdForm2 {
+  display: flex;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #373334;
+
+}
+
+/*Сроки выполнения работ:
+По продолжительности трансляции предлагаем:
+По форме рекламного ролика предлагаем:*/
+.SrokProdHead {
+  display: flex;
+  margin: 0px 40px;
+}
+
+/*— Изготовление: 2 рабочий дня
+— Развернутые ролики (30 сек. и больше)
+— Рекламное сообщение*/
+.SrokProdInd {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  margin: 0px 40px;
+}
+
+/*Линия между блоками*/
+.line {
+  width: 1500px;
+  height: 2px;
+  background: #373334;
+}
+
+/*Блок со стоимостью размещения и более точных расчётов*/
+.AdsCost {
+  display: flex;
+}
+/*Стоимость размещения рекламы на Злат-ТВ*/
+.AdsCostHead {
+  padding-right: 50px;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  color: #373334;
+}
+/*Для более точных расчетов, просим подготовить следующую информацию:
+— Временной период размещения
+— Хронометраж ролика
+— Сценарий рекламного ролика (при наличии)
+— Количество выходов рекламы в день
+— Желаемое время выхода рекламы
+— Планируемый бюджет на размещение рекламы
+— Бренд (юридическое название и сфера деятельности организации)*/
+.AdsCostInf {
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #373334;
+}
+
+/*Блок с закаом изготовления*/
+.OrderAds {
+  background-color: black;
+}
+
+/*Заказать изготовление или размещение рекламы*/
+.OrderHead {
+  padding-top: 90px;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 125%;
+  color: #FFFFFF;
+}
+
+/*Обёртка для Имя Телефон*/
+.NamePhone{
+  display: flex;
+}
+
+/*Имя*/
+.Name {
+  margin-right: 350px;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 135%;
+  color: #FFFFFF;
+}
+
+/*Телефон*/
+.Phone {
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 135%;
+  color: #FFFFFF;
+}
+
+/*Обёртка для линий под именем и Телефоном*/
+.NamePhone__Line {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+/*Линия под именем*/
+.Name_line {
+  margin-right: 35px;
+  width: 340px;
+  height: 2px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+/*Линия под телефоном*/
+.Phone_line {
+  width: 340px;
+  height: 2px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+/*Обёртка для кнопки и описания справа*/
+.btnTextPrice {
+  display: flex;
+  padding-bottom: 100px;
+}
+
+/*Границы кнопки*/
+.ButtonText__Line {
+  display:inline-block;
+  border: 4px solid #FFFFFF;
+  border-radius: 56px;
+  padding: 16px 50px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+} 
+
+/*Текст внутри кнопки*/
+.btnSend {
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+
+/*Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных*/
+.PersonalData {
+  margin-left: 20px;
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  color: #FFFFFF;
+}
+
+
+
+.Cards {
+  display: flex;
+  padding: 50px 0px;
+}
+
+.Card {
+  background: #FFFFFF;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Cards2 {
+  padding: 0px 50px;
+}
+
+.SVGClients {
+  padding: 30px 30px;
+}
+
+.CardInf {
+  padding: 40px 100px; 
+  font-family: 'Frank';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #373334;
+}

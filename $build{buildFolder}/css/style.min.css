@@ -1,0 +1,15 @@
+.no-webp body {
+  background: url("../images/i-am.jpg"); }
+
+body {
+  background-color: #dabfbf;
+}
+
+body h1 {
+  font-family: Pushster;
+  font-weight: 400;
+  color: green;
+  font-size: 60px;
+}
+
+.webp body { background: url(../images/i-am.webp); }

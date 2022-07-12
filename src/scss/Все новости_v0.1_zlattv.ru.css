@@ -1,0 +1,166 @@
+body {
+    background: #E5E5E5;
+}
+
+.AllnewsContent {
+    margin: 0px 200px;
+}
+
+.Selectors {
+    display: flex;
+    padding-bottom: 80px;
+    
+}
+
+.Selector {
+    display: flex;
+    margin-right: 50px;
+    height: 60px;
+    border: 2px solid #373334;
+    align-items: center;
+}
+
+.calendar {
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 20px;
+}
+
+.Data {
+    padding-right: 280px;
+    height: 20px;
+}
+
+.SelectCat {
+    padding-right: 280px;
+    padding-left: 20px;
+    height: 20px;
+}
+
+.Vector {
+    padding-right: 30px;
+    height: 10px;
+}
+
+.BlockNews1 {
+    display: flex; 
+
+}
+
+.BlockNews2 {
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.NewsCard {
+    height: 470px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    justify-content: flex-start; 
+
+}
+
+.TypeNews {
+    margin-right: 40px;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    /* identical to box height, or 22px */
+
+
+    /* Акцент */
+
+    color: #9F0023;
+}
+
+.CardData {
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 115%;
+    /* identical to box height, or 14px */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #959595;
+}
+
+.Text {
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+.TypeBlock {
+    display: flex;
+    align-items: center;
+}
+
+.SVGNews {
+    margin-right: 50px;
+}
+
+.BlockNewsSug {
+    padding: 80px 0px;
+}
+
+.NewsSug {
+    display: flex;
+    height: 360px;
+    background: #FFFFFF;
+}
+
+.SVGSug {
+    padding: 50px 50px;
+}
+
+.Text {
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+
+
+    /* Черный2 */
+
+    color: #373334;
+
+}
+
+.BlockTextInf {
+    display: flex;
+    align-items: flex-end;
+}
+
+.TextInf {
+    padding-right: 250px;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+.SVGSugArr {
+    padding-right: 50px;
+}

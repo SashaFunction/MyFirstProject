@@ -1,0 +1,362 @@
+body {
+    background: #E5E5E5;
+    justify-content: space-between;
+}
+
+.GlavContent {
+    margin: 0px 200px;
+}
+
+.CompSwipe {
+    position: fixed;
+    overflow: hidden;
+    background: white;
+    height: 150px;
+    border-radius: 100px;
+    right: 0;
+    bottom: 0;
+}
+
+.swiper {
+    width: 500px;
+    height: 150px;
+}
+
+.SVGRig {
+    
+    border-radius: 100px;
+    border: 6px solid black;
+}
+
+.RigText {
+    margin-left: 30px;
+    padding-right: 30px;
+}
+
+
+.TopSlider {
+    padding: 100px 0px;
+}
+
+.swiper-slide {
+    display: flex;
+
+}
+
+.SVGSwiper {
+    height: 400px;
+    padding-right: 40px;
+}
+
+.SwiperText {
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 125%;
+    /* or 65px */
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+.btnSwiper {
+    /* Черный2 */
+    display:inline-block;
+    border: 4px solid #373334;
+    border-radius: 56px;
+    padding: 16px 50px;
+    color: #373334;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnText {
+    /* 16 med button */
+
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    /* Черный2 */
+
+    color: #373334;
+    text-decoration: none;
+}
+
+.NewNews {
+    height: 100%;
+    padding: 80px 0px;
+}
+
+.HeadBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.FreshNews {
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 90%;
+    /* or 90px */
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+.btnNews {
+    height: 50px;
+    padding-top: 190px;
+}
+
+.btnAllNews {
+    display:inline-block;
+    border: 4px solid #373334;
+    border-radius: 56px;
+    padding: 16px 50px;
+    color: #373334;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnText {
+    /* 16 med button */
+    height: 15px;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+
+
+.BlockNews1 {
+    display: flex; 
+
+}
+
+.BlockNews2 {
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.NewsCard {
+    height: 470px;
+
+}
+
+.TypeNews {
+    margin-right: 40px;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    /* identical to box height, or 22px */
+
+
+    /* Акцент */
+
+    color: #9F0023;
+}
+
+.CardData {
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 115%;
+    /* identical to box height, or 14px */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #959595;
+}
+
+.Text {
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+.TypeBlock {
+    display: flex;
+}
+
+.SVGNews {
+    margin-right: 50px;
+}
+
+.Banner {
+    height: 130%;
+}
+
+
+.line {
+    width: 130%;
+    height: 2px;
+    background: #373334;
+  }
+
+.BotHeader {
+    display: flex;
+    padding-bottom: 70px;
+    align-items: center;
+}
+
+.BotSliderName {
+    padding-right: 930px;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 90%;
+    /* or 90px */
+
+
+    /* Черный2 */
+
+    color: #373334;
+
+}
+
+.btnSlider {
+    display: flex;
+}
+
+.btnBack {
+    padding-right: 20px;
+}
+
+
+.swiper-wrapper-bot{
+    display: flex;
+  }
+
+.btnMoreNews {
+    display:inline-block;
+    border: 4px solid #373334;
+    border-radius: 56px;
+    padding: 16px 50px;
+    color: #373334;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnText {
+    /* 16 med button */
+    height: 15px;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    /* Черный2 */
+
+    color: #373334;
+}
+
+
+.PremIss {
+    height: 1010px;
+    background: black;
+}
+
+.PremIssContent {
+    display: flex;
+}
+
+.btnsVideoInf {
+    display: flex;
+}
+
+.btnsVideos:hover {
+    background: #FFFFFF;
+}
+
+.DataVideos {
+
+    padding-right: 70px;
+    /* 16 reg */
+
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    /* identical to box height, or 22px */
+
+
+    /* Белый */
+
+    color: #FFFFFF;
+}
+
+.NameVideos {
+    padding-right: 100px;
+    font-family: 'Frank';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    /* identical to box height, or 112% */
+
+
+    /* Белый */
+
+    color: #FFFFFF;
+}
+
+.videoline{
+    width: 130%;
+    height: 2px;
+    background: #FFFFFF;
+}
+
+.Arr{
+    background: #373334;
+    transform: matrix(-0.71, 0.71, 0.71, 0.71, 0, 0);
+}
+

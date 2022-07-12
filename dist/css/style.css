@@ -1,0 +1,10 @@
+body {
+  background-color: aqua;
+}
+
+body h1 {
+  font-family: Pushster;
+  font-weight: 400;
+  color: green;
+  font-size: 60px;
+}
